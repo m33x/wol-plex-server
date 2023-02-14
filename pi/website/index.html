@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- Meta -->
+        <meta name="description" content="Website to wake up server" />
+        <meta name="keywords" content="wake on lan, server wake up, sleep, S3, WOL" />
+        <meta name="author" content="Your Name Here">
+        <!-- Style -->
+        <link rel="shortcut icon" href="ico/favicon.ico">
+        <title>Server Wake Up</title>
+        <link href="css/thirdparty/bootstrap.min.css" rel="stylesheet">
+        <link href="css/custom/main.css?v=123" rel="stylesheet">
+        <link href="css/thirdparty/fontawesome.all.min.css" rel="stylesheet">
+    </head>
+    <body id="main">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+
+                    <h1><i class="fa-solid fa-computer"></i> Home Server</h1>
+                    <p>Plex Streaming and Time Machine Backup</p>
+                    <div class="card">
+                        <div class="card-header">
+                            Server Status
+                        </div>
+                        <div class="card-body" id="lblStateBody">
+                            <div id="lblState"><i class="fa-solid fa-hourglass-half"></i> Unknown</div>
+                        </div>
+                        <div class="card-footer text-muted">
+                            Last Change: <span id="lblLastChanged"><i class="fa-solid fa-hourglass-half"></i> Unknown</span>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="text-center">
+                        <button id="btnWakeUp" style="visibility: hidden;" class="btn btn-primary btn-lg btn-block" type="button"><i class="fa-solid fa-bell"></i> Wake up server!</button>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <br>
+        </div>
+        <script src="js/thirdparty/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/thirdparty/jquery.min.js"><\/script>')</script>
+        <script src="js/thirdparty/bootstrap.min.js"></script>
+        <script src="js/custom/main.js?rnd=123"></script>
+    </body>
+</html>

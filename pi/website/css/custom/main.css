@@ -1,0 +1,12 @@
+body > .container {
+    padding: 15px;
+    font-size: large;
+}
+
+#lblState {
+    font-size: 2rem;
+}
+
+#btnWakeUp {
+    font-size: 2rem;
+}
